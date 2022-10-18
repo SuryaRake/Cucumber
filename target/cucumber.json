@@ -1,0 +1,336 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-10-18T14:29:15.345Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1511462200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefenition.Hooks.SetUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "To Add two numbers",
+        "description": "",
+        "id": "this-feature-would-be-creating-a-calculator-for-add-and-subtract;to-add-two-numbers",
+        "after": [
+          {
+            "result": {
+              "duration": 16246553400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefenition.Hooks.TearDOwn()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2397900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I have a calculator",
+            "match": {
+              "location": "stepDefenition.CalcStepDef.i_have_a_calculator()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1511500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I add 4 and 5",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4",
+                  "offset": 6
+                },
+                {
+                  "val": "5",
+                  "offset": 12
+                }
+              ],
+              "location": "stepDefenition.CalcStepDef.i_add_and(int,int)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2683300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I should get the result as 9",
+            "match": {
+              "arguments": [
+                {
+                  "val": "9",
+                  "offset": 27
+                }
+              ],
+              "location": "stepDefenition.CalcStepDef.i_should_get_the_result_as(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@sanity"
+          }
+        ]
+      }
+    ],
+    "name": "This feature would be creating a calculator for Add and Subtract",
+    "description": "",
+    "id": "this-feature-would-be-creating-a-calculator-for-add-and-subtract",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/Calculator.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4224071800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I have already launched the application",
+            "match": {
+              "location": "stepDefenition.LoginStepDef.i_have_already_launched_the_application()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-10-18T14:29:33.148Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1025427300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefenition.Hooks.SetUp()"
+            }
+          }
+        ],
+        "line": 31,
+        "name": "This scenario is define the fail path (one feature can have multiple scenarios)",
+        "description": "",
+        "id": "login-feature-scenario;this-scenario-is-define-the-fail-path-(one-feature-can-have-multiple-scenarios);;2",
+        "after": [
+          {
+            "result": {
+              "duration": 16276299800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefenition.Hooks.TearDOwn()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 156933900,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I enter username as \"suryak@dgh.com\" and password as \"Rtefvb@et87\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"suryak@dgh.com\"",
+                  "offset": 20
+                },
+                {
+                  "val": "\"Rtefvb@et87\"",
+                  "offset": 53
+                }
+              ],
+              "location": "stepDefenition.LoginStepDef.i_enter_username_as_and_password_as(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 397355500,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I click on LoginButton",
+            "match": {
+              "location": "stepDefenition.LoginStepDef.i_click_on_LoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2408234600,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I  should get the error message \"The email or password you have entered is invalid.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"The email or password you have entered is invalid.\"",
+                  "offset": 32
+                }
+              ],
+              "location": "stepDefenition.LoginStepDef.i_should_get_the_error_message(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@sanity"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5110625000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I have already launched the application",
+            "match": {
+              "location": "stepDefenition.LoginStepDef.i_have_already_launched_the_application()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-10-18T14:29:57.644Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1008628300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefenition.Hooks.SetUp()"
+            }
+          }
+        ],
+        "line": 32,
+        "name": "This scenario is define the fail path (one feature can have multiple scenarios)",
+        "description": "",
+        "id": "login-feature-scenario;this-scenario-is-define-the-fail-path-(one-feature-can-have-multiple-scenarios);;3",
+        "after": [
+          {
+            "result": {
+              "duration": 16266675700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefenition.Hooks.TearDOwn()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 143995300,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I enter username as \"ryuin@dfgj.com\" and password as \"ETjuuh@r5h\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ryuin@dfgj.com\"",
+                  "offset": 20
+                },
+                {
+                  "val": "\"ETjuuh@r5h\"",
+                  "offset": 53
+                }
+              ],
+              "location": "stepDefenition.LoginStepDef.i_enter_username_as_and_password_as(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5894095300,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I click on LoginButton",
+            "match": {
+              "location": "stepDefenition.LoginStepDef.i_click_on_LoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 29530600,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I  should get the error message \"The email or password you have entered is invalid.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"The email or password you have entered is invalid.\"",
+                  "offset": 32
+                }
+              ],
+              "location": "stepDefenition.LoginStepDef.i_should_get_the_error_message(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@sanity"
+          }
+        ]
+      }
+    ],
+    "name": "Login Feature Scenario",
+    "description": "",
+    "id": "login-feature-scenario",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/Login.feature",
+    "tags": []
+  }
+]
